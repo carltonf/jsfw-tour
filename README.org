@@ -2,8 +2,10 @@ A set of simple demos that get implemented in different frameworks for learning
 and comparison purpose.
 
 * Status 
-** TODO Use plain JavaScript to implement the demos on the homepage of =AngularJS=
+** TODO Implement the demos on the homepage of =AngularJS=
 CLOCK: [2015-08-14 Fri 16:31]--[2015-08-14 Fri 17:21] =>  0:50
+Only plain JS, JQuery and Angular JS need to be considered for now.
+
 *** DONE Basic Form
 CLOSED: [2015-08-14 Fri 19:01]
 :LOGBOOK:  
