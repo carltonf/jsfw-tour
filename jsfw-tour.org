@@ -1,0 +1,11 @@
+A set of simple demos that get implemented in different frameworks for learning
+and comparison purpose.
+
+* Status 
+** TODO Use plain JavaScript to implement the demos on the homepage of =AngularJS=
+CLOCK: [2015-08-14 Fri 16:31]--[2015-08-14 Fri 17:21] =>  0:50
+*** DONE Basic Form
+CLOSED: [2015-08-14 Fri 19:01]
+:LOGBOOK:  
+- State "DONE"       from "TODO"       [2015-08-14 Fri 19:01]
+:END:      

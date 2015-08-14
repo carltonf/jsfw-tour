@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <title>The Basics - AngularJS</title>
+    <meta charset="utf-8" />
+    <script src="../../libs/angular.min.js"></script>
+  </head>
+  <body>
+    <form action="">
+      <label for="name">Name:</label>
+      <input id="name" type="text" name="name" placeholder="Enter a name here"
+             ng-model="user_input_name">
+    </form>
+    <hr>
+    <p>Hello {{user_input_name}}</p>
+  </body>
+</html>
