@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>TODO - JQuery</title>
+    <meta charset="utf-8" />
+    <script src="../../libs/jquery.min.js"></script>
+    <link rel="stylesheet" href="../todo.css">
+  </head>
+  <body>
+    <h2>Todo</h2>
+    <div id="todo-wrapper">
+      <span><span id="active-todo-count"></span> of <span id="total-todo-count"></span> remaining</span>
+        [ <a id="toggle-archive-btn" href="">archive</a> ]
+
+      <ul id="todo-list" class="unstyled">
+        <li class="todo-entry">
+          <input type="checkbox">
+          <span class>todo text</span>
+        </li>
+      </ul>
+
+      <form id="add-new-todo" action="">
+        <input type="text" placeholder="add new todo here">
+        <input class="btn-primary" type="submit" value="add">
+      </form>
+    </div>
+
+    <!-- script loading -->
+    <script src="todo.js"></script>
+  </body>
+</html>
+
