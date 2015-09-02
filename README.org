@@ -1,13 +1,84 @@
+[2015-08-31 Mon] Major update: [[http://todomvc.com/][TodoMVC]] contains implementations using *many*
+different =MV*= frameworks.
+
 A set of simple demos that get implemented in different frameworks for learning
 and comparison purpose.
 
-* Status 
+
+
+* Status
 ** TODO Implement the demos on the homepage of =AngularJS=
 CLOCK: [2015-08-14 Fri 16:31]--[2015-08-14 Fri 17:21] =>  0:50
 Only plain JS, JQuery and Angular JS need to be considered for now.
 
 *** DONE Basic Form
 CLOSED: [2015-08-14 Fri 19:01]
-:LOGBOOK:  
+:LOGBOOK:
 - State "DONE"       from "TODO"       [2015-08-14 Fri 19:01]
-:END:      
+:END:
+
+* NOTES
+
+** Backbone.js
+*Goal:* Fully understand it, even the source code.
+
+#+BEGIN_SRC text
+
+  It's all too easy to create JavaScript applications that end up as tangled piles
+  of jQuery selectors and callbacks, all trying frantically to keep data in sync
+  between the HTML UI, your JavaScript logic, and the database on your server.
+
+#+END_SRC
+
+- [ ] Models should be able to be passed around throughout your app, and used
+  anywhere that bit of data is needed.
+
+- Models should be generally unaware of views.
+
+- Backbone remains unopinionated about the process used to render View objects
+  and their subviews into UI: you define how your models get translated into
+  HTML (or SVG, or Canvas, or something even more exotic).
+*** TODO [[http://adrianmejia.com/blog/2012/09/11/backbone-dot-js-for-absolute-beginners-getting-started/][Backbone.js for Absolute Beginners - Getting Started (Part 1: Intro) - Adrian Mejia’s Blog]]
+- Backbone’s Views are the equivalent of ‘controllers’ on MVC frameworks
+
+*** CANCELED [[https://backbonetutorials.com/][Backbone.js Tutorials]]
+CLOSED: [2015-08-31 Mon 13:28]
+:LOGBOOK:
+- State "CANCELED"   from "TODO"       [2015-08-31 Mon 13:28]
+:END:
+
+[2015-08-31 Mon] Not very intuitive. Give up.
+
+**** [[https://cdnjs.com/libraries/backbone.js/tutorials/why-would-you-use-backbone/][Why do you need Backbone.js? - backbone.js tutorials - cdnjs.com]]
+
+- Backbone.js enforces that communication to the server should be done entirely
+  through a RESTful API. The web is currently trending such that all
+  data/content will be exposed through an API.
+**** [[https://backbonetutorials.com/what-is-a-model][What is a model?]]
+
+A poorly written part, feels more like a list of APIs.
+
+
+* Refs
+
+** [[https://www.airpair.com/js/javascript-framework-comparison][AngularJS vs. Backbone.js vs. Ember.js]]
+
+Very objective comparison with good information table.
+
+- =Backbone.js= <-> Minimalism
+- =Ember.js= <-> Pragmatism
+- =Angular.js= <-> Innovative
+
+** [[http://codebrief.com/2012/01/the-top-10-javascript-mvc-frameworks-reviewed/][The Top 10 Javascript MVC Frameworks Reviewed]]
+
+Not updated for *2 yrs*, but still a useful ref.
+
+** [[http://stackoverflow.com/questions/4912586/explanation-of-script-type-text-template-script][javascript - Explanation of <script type = "text/template"> ... </script> - Stack Overflow]]
+
+Note the =<template>= tag is *NOT* really recommended as it requires the content
+to be valid HTML as opposed to the =text/template= which browsers will simply
+ignore.
+
+* Resources
+
+** [[https://cdnjs.com/][cdnjs.com - the missing cdn for javascript and css]]
